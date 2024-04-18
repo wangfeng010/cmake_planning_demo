@@ -47,3 +47,8 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("D:/codes/cmake_planning_demo/build/src/process/cmake_install.cmake")
 endif()
 
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/codes/cmake_planning_demo/build/src/show_result/cmake_install.cmake")
+endif()
+
